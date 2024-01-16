@@ -1,0 +1,229 @@
+*{
+margin: 0%;
+padding: 0%;
+font-family: sans-serif;
+}
+#headingfood{
+    font-size: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navbar{height: 12vh;
+    background-color: white;
+    color: #d70f64;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    
+        position: fixed;
+        top: 0; /* Navbar will stick to the top of the viewport */
+        left: 0;
+        width: 100%; /* Navbar width will be 100% of the viewport */
+    
+    
+        z-index: 100; /* Make sure it appears above other content */
+      
+      
+}
+.foodpanda{
+   
+    width: 90%
+}
+.logoicon{
+    margin-top: 2rem;
+}
+.imgheader{
+        background-image: url(hero-bg-xl.png);
+    height: 100vh;
+background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.afterheader{
+
+ margin-right: 15rem;
+
+    
+}
+.foodbtn{
+    height: 8vh;
+    width: 8vw;
+    background-color: #d70f64;
+    border-radius: .5rem;
+}
+
+#address{
+    height: 9vh;
+    width: 35vw;
+    border-radius: 1rem;
+    border-color: lightgrey;
+    margin-top: 1rem;
+}
+.findfood{
+    background-color: white;
+    height: 15vh;
+    width: 50vw;
+    border-radius: 1.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+.afterheader2{height: 10vh;
+      background-color: white;
+      font-size: 2rem;
+      color: black;
+      padding-top: 1rem;
+      padding-left: 1rem;
+}
+.afterhpic{
+         background-image: url(partner-bg.png);
+         height: 80vh;
+         background-size: cover;
+
+}
+.para{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    padding-right: 11rem;  
+}
+.content{
+font-family: sans-serif;
+background-color: white;
+height: 50vh;
+width: 45vw;
+color:black ;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 1.5rem;
+position: relative;
+top:22rem;
+padding-left: 1rem;
+line-height: normal;
+margin-left: 4rem;
+}
+.btnget{
+    height: 8vh;
+    width: 8vw;
+    background-color: #d70f64;
+    color: white;
+    border-radius: .5rem;
+    border-color: none;
+    position: relative;
+    right: 15rem;
+}
+.line{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: black;
+    padding-top: 1.5rem;
+    position: relative;
+    top:10rem;
+}
+.isb{
+    height: 15vh;
+    width: 20vw;
+    border-radius: 1rem;
+}
+#box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.figcaption{
+    height: 4vh;
+    width: 8vw;
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.cities{
+
+    background-color: #d70f64;
+}
+.download{
+  background-color: #d70f64;
+  height: 40vh;
+
+  color: white;
+  font-size: 1rem;
+  
+
+}
+.put{
+    height: 13vh;
+    width: 30vw;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.downloadhead{
+    font-size: 2rem;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 2rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+    @media screen and (max-width: 964px) {
+        #headingfood {
+          font-size: 1.5rem;
+        }
+      
+        .foodbtn {
+          position: relative;
+          right: 0;
+          margin-top: 2rem;
+          width: 100%;
+        }
+      
+        .navbar {
+          font-size: 1.2rem;
+        }
+      
+        .afterheader {
+          margin-right: 5rem;
+        }
+      
+        .content {
+          top: 18rem;
+          margin-left: 2rem;
+        }
+      
+        .btnget {
+          right: 5rem;
+        }
+      }
+
+
+
+
+
+
+/* Mobile styleshtml{
+    font-size: 62.5%;
+}
+@media(max-width:998px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size:45%
+    }
+} */

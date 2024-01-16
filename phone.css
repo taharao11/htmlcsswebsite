@@ -1,0 +1,7 @@
+@media (max-width:964){
+    .foodbtn{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
